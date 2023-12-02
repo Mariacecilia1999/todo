@@ -3,7 +3,6 @@ import AddTaskForm from './AddTaskForm'
 import AllTask from './AllTask'
 
 const Main = ({content}) =>{
-   console.log(content)
    return(<>
    <Box height='52.7vh' display='flex' alignItems='center' justifyContent='center'>
    {content === 1 ? <AllTask/> : <AddTaskForm/>}
