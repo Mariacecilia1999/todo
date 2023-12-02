@@ -21,7 +21,7 @@ const AllTask = () =>{
 
    ])
    return(<>
-   <Box width='25vw'>
+   <Box sx={{width:{xs:'90vw', sm:'50vw'}}} width='25vw'>
       {allTask.map((task)=>{
          return <Box borderBottom='1px solid black' key={task.id} my='30px' display='flex' justifyContent={'space-around'}>
             <Typography width='14vw' variant='h5'>{task.name}</Typography>
